@@ -50,15 +50,15 @@
 <!--text styles-->
 
 body {
-    font-family: monospace;
+    font-family: "Volkhov";
     text-align: left;
     margin: 40px;
     padding: 0;
 }
 
 h1 {
-    font-family: "Monomakh";
-    font-size: 10vw;
+    font-family: "Rokkitt";
+    font-size: 25vw;
     text-align: center;
     color: #333;
     padding: 40px;
@@ -72,12 +72,12 @@ h2 {
 }
 
 .section (
-    font-family: "rokkit";
-    font-size: 15vw;
+    font-family: "kameron";
     weight: 500;
     padding: 20px;
     margin: 20px;
 )
+
 <!--elements-->
 
 button, input[type="submit"] {
