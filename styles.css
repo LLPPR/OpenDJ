@@ -1,44 +1,74 @@
 <!--fonts-->
 
-.monomakh-regular {
-  font-family: "Monomakh", system-ui;
+.arvo-regular {
+  font-family: "Arvo", serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.tienne-regular {
+  font-family: "Tienne", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tienne-bold {
+  font-family: "Tienne", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tienne-black {
+  font-family: "Tienne", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
 
 / <weight>: Use a value from 100 to 900
 // <uniquifier>: Use a unique and descriptive class name
-
-.rokkitt-<uniquifier> {
-  font-family: "Rokkitt", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-.volkhov-regular {
-  font-family: "Volkhov", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.volkhov-bold {
-  font-family: "Volkhov", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.volkhov-regular-italic {
-  font-family: "Volkhov", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.volkhov-bold-italic {
-  font-family: "Volkhov", serif;
-  font-weight: 700;
-  font-style: italic;
-}
 
 .kameron-<uniquifier> {
   font-family: "Kameron", serif;
@@ -50,30 +80,31 @@
 <!--text styles-->
 
 body {
-    font-family: "kameron";
-    text-align: left;
-    margin: 40px;
-    padding: 0;
+    font-family: "Courier Prime", monospace;
+    font-size: 5vw;
+    margin: 20px;
+    padding: 5px;
 }
 
 h1 {
     font-family: "kameron";
-    font-size: 25vw;
+    font-size: 20vw;
     text-align: center;
     color: #333;
     padding: 40px;
 }
 
 h2 {
+    font-family: "tienne";
     font-size: 10vw;
-    style: heavy;
+    font-style: black;
     color: #333;
     padding: 40px;
 }
 
-.section (
-    font-family: "kameron";
-    weight: 500;
+.section {
+    font-family: "arvo";
+    font-weight: bold;
     padding: 20px;
     margin: 20px;
 )
