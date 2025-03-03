@@ -29,14 +29,10 @@ body {
     padding: 0;
 }
 
-title  {
-    font-family: Monomakh;
-    font-size: 10vw;
-    text-align: center;
-    padding: 20;
 h1 {
-    siz: 10vw;
-    style: bold;
+    font-family: "Monomakh"
+    size: 10vw;
+    text-align: center;
     color: #333;
     padding: 40px;
 }
