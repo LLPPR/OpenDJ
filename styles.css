@@ -1,10 +1,4 @@
-body {
-    font-family: monospace;
-    text-align: center;
-    margin: 40px;
-    padding: 0;
-}
-##fonts
+<!--fonts-->
 .courier-prime-regular {
   font-family: "Courier Prime", monospace;
   font-weight: 400;
@@ -21,6 +15,13 @@ body {
   font-family: "Courier Prime", monospace;
   font-weight: 400;
   font-style: italic;
+}
+
+body {
+    font-family: monospace;
+    text-align: center;
+    margin: 40px;
+    padding: 0;
 }
 
 h1 {
@@ -50,7 +51,7 @@ button, input[type="submit"] {
     font-size: 16px;
 }
 
-box {
+.box {
     width: 400px;
     height: 250px;
     overflow: hidden;
