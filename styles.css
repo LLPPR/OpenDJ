@@ -22,6 +22,49 @@
   font-style: normal;
 }
 
+/ <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.rokkitt-<uniquifier> {
+  font-family: "Rokkitt", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.volkhov-regular {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.volkhov-regular-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.volkhov-bold-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.kameron-<uniquifier> {
+  font-family: "Kameron", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+<!--text styles-->
+
 body {
     font-family: monospace;
     text-align: left;
@@ -43,6 +86,8 @@ h2 {
     color: #333;
     padding: 40px;
 }
+
+<!--elements-->
 
 button, input[type="submit"] {
     font-family: monospace;
