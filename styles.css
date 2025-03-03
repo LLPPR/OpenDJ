@@ -16,6 +16,11 @@
   font-weight: 400;
   font-style: italic;
 }
+.monomakh-regular {
+  font-family: "Monomakh", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 body {
     font-family: monospace;
@@ -25,8 +30,8 @@ body {
 }
 
 title  {
-    font-family: monospace;
-    font-weight: bold;
+    font-family: Monomakh;
+    font-size: 10vw;
     text-align: center;
     padding: 20;
 h1 {
