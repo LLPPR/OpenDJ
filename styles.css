@@ -1,21 +1,5 @@
 <!--fonts-->
-.courier-prime-regular {
-  font-family: "Courier Prime", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
 
-.courier-prime-bold {
-  font-family: "Courier Prime", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.courier-prime-regular-italic {
-  font-family: "Courier Prime", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
 .monomakh-regular {
   font-family: "Monomakh", system-ui;
   font-weight: 400;
@@ -87,6 +71,13 @@ h2 {
     padding: 40px;
 }
 
+.section (
+    font-family: "rokkit";
+    font-size: 15vw;
+    weight: 500;
+    padding: 20px;
+    margin: 20px;
+)
 <!--elements-->
 
 button, input[type="submit"] {
