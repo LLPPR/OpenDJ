@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-    font-family: "Monomakh"
+    font-family: "Monomakh";
     font-size: 10vw;
     text-align: center;
     color: #333;
@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-    siz: 10vw;
+    font-size: 10vw;
     style: heavy;
     color: #333;
     padding: 40px;
