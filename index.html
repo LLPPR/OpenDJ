@@ -4,16 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenDJ Program</title>
+    <description>DJ Notation for All</description>
     <link rel="stylesheet" href="styles.css">
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Kameron:wght@400..700&family=Tienne:wght@400;700;900&display=swap');
-    </style> 
+        @import url('https://fonts.googleapis.com/css2?family=Fenix&family=Telex&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
 </head>
 <body>
     <h1>OpenDJ</h1>
     <div class="section">
-        <p>Upcoming announcements</p>
-    </div>
+        <h2>Save the Date: DD/MM/YYYY</h2>
+<input type="Proposed Workshop: OpenDJ Introductory Studio
+            Presented by: LP  Location: Satellite, 21 Strickland Ave., Toronto, ON
+            Duration: 60 minutes"
+value="Hello World" id="myInput">
+<button onclick="myFunction()">Copy text</button>
+
+<script>
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+  
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+
+    </div
     <div class="introduction">
         <h2>About the Workshop</h2>
         <p>Join us for an exciting workshop on modern web development. Learn from industry experts and improve your skills.</p>
@@ -34,6 +58,5 @@
             <button type="submit">Sign Up</button>
         </form>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
