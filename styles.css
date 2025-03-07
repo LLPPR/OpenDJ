@@ -5,13 +5,6 @@
   font-style: normal;
 }
 
-
-.suez-one-regular {
-  font-family: "Suez One", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .volkhov-regular {
   font-family: "Volkhov", serif;
   font-weight: 400;
@@ -41,10 +34,11 @@
   font-weight: 400;
   font-style: normal;
 }
+
 body, html {
-    font-family: "Fenix", 'Times New Roman', Times, serif;
-    margin: 20px;
-    padding: 5px;
+  font-family: "Fenix", 'Times New Roman', Times, serif;
+  margin: 20px;
+  padding: 5px;
 }
 
 h1 {
