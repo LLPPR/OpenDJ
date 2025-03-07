@@ -35,17 +35,12 @@
   font-style: normal;
 }
 
-body, html {
+body {
     font-family: "Fenix", 'Times New Roman', Times, serif;
     margin: 20px;
     padding: 5px;
     max-width: 500px;
 }
-
-div {
-    max-width: 500px;
-    background-color: darkblue;
-  }
 
 h1 {
     font-family: "Volkhov", 'Times New Roman', Times, serif;
@@ -73,10 +68,8 @@ h2 {
 
 .introduction {
   font-family: "Fenix", serif;
-  color: antiquewhite, whitesmoke;
   padding: 20px;
   margin: 20px;
-  background-color: blue;
 }
 
 button, input[type="submit"] {
