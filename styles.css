@@ -1,0 +1,124 @@
+
+.fenix-regular {
+  font-family: "Fenix", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.suez-one-regular {
+  font-family: "Suez One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-regular {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.volkhov-regular-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.volkhov-bold-italic {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.telex-regular {
+  font-family: "Telex", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body, html {
+    font-family: "Fenix", 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 5px;
+}
+
+h1 {
+    font-family: "Suez One", 'Times New Roman', Times, serif;
+    font-size: 25vw;
+    text-align: center;
+    color: #333;
+    padding: 40px;
+}
+
+h2 {
+    font-family: "Telex", 'Times New Roman', Times, serif;
+    font-size: 10vw;
+    font-style: black;
+    color: #333;
+    padding: 40px;
+}
+
+.section {
+    font-family: "Volkhov", monospace;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+}
+
+.introduction {
+  font-family: "Fenix", serif;
+  color: antiquewhite, whitesmoke;
+  padding: 20px;
+  margin: 20px;
+  background-color: blue;
+}
+
+button, input[type="submit"] {
+    font-family: monospace;
+    background: none;
+    border: 2px solid #333;
+    color: #333;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.box {
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #333;
+    color: #fff;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    display: inline-block;
+}
+
+input[type="text"], input[type="email"] {
+    font-family: monospace;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #333;
+    width: calc(100% - 44px);
+}
+
+label {
+    font-family: monospace;
+    display: block;
+    margin: 10px 0 5px;
+}
