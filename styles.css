@@ -36,14 +36,21 @@
 }
 
 body, html {
-  font-family: "Fenix", 'Times New Roman', Times, serif;
-  margin: 20px;
-  padding: 5px;
+    font-family: "Fenix", 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 5px;
+    max-width: 500px;
 }
 
+div {
+    max-width: 500px;
+    background-color: darkblue;
+  }
+
 h1 {
-    font-family: "Suez One", 'Times New Roman', Times, serif;
-    font-size: 25vw;
+    font-family: "Volkhov", 'Times New Roman', Times, serif;
+    font-size: 20vw;
+    font-weight: bold;
     text-align: center;
     color: #333;
     padding: 40px;
