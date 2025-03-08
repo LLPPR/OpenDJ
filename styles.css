@@ -1,58 +1,101 @@
+<!--fonts-->
 
-.fenix-regular {
-  font-family: "Fenix", serif;
+.arvo-regular {
+  font-family: "Arvo", serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.volkhov-regular {
-  font-family: "Volkhov", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.volkhov-bold {
-  font-family: "Volkhov", serif;
+.arvo-bold {
+  font-family: "Arvo", serif;
   font-weight: 700;
   font-style: normal;
 }
 
-.volkhov-regular-italic {
-  font-family: "Volkhov", serif;
+.arvo-regular-italic {
+  font-family: "Arvo", serif;
   font-weight: 400;
   font-style: italic;
 }
 
-.volkhov-bold-italic {
-  font-family: "Volkhov", serif;
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
   font-weight: 700;
   font-style: italic;
 }
 
-.telex-regular {
-  font-family: "Telex", sans-serif;
+.tienne-regular {
+  font-family: "Tienne", serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.tienne-bold {
+  font-family: "Tienne", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tienne-black {
+  font-family: "Tienne", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/ <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.kameron-<uniquifier> {
+  font-family: "Kameron", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+<!--text styles-->
 
 body {
-    font-family: "Fenix", 'Times New Roman', Times, serif;
+    font-family: "Courier Prime", monospace;
+    font-size: 5vw;
     margin: 20px;
     padding: 5px;
-    max-width: 500px;
 }
 
 h1 {
-    font-family: "Volkhov", 'Times New Roman', Times, serif;
+    font-family: "kameron";
     font-size: 20vw;
-    font-weight: bold;
     text-align: center;
     color: #333;
     padding: 40px;
 }
 
 h2 {
-    font-family: "Telex", 'Times New Roman', Times, serif;
+    font-family: "tienne";
     font-size: 10vw;
     font-style: black;
     color: #333;
@@ -60,17 +103,13 @@ h2 {
 }
 
 .section {
-    font-family: "Volkhov", monospace;
+    font-family: "arvo";
     font-weight: bold;
     padding: 20px;
     margin: 20px;
-}
+)
 
-.introduction {
-  font-family: "Fenix", serif;
-  padding: 20px;
-  margin: 20px;
-}
+<!--elements-->
 
 button, input[type="submit"] {
     font-family: monospace;
