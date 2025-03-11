@@ -32,28 +32,37 @@
 }
 
 body {
-    font-size: 100%;
-    background-color: #FFF4A3;
+	font-size: 100%;
+	block-size: 100%;
+	background-color: #FFF4A3;
 }
 
 h1 {
 	font-family: "Montagu Slab", serif;
 	font-size: 22vw;
 	font-weight: 700;
-	padding-top: 10%;
-        padding-bottom:25%;
 }
 
 h2 {
-    font-family: "Zilla Slab Highlight", serif; 
-    font-size: 2.5em;
-    font-weight: bold;
+    	font-family: "Zilla Slab Highlight", serif; 
+    	font-size: 2.5em;
+    	font-weight: bold;
+	line-height: 1em;
+	text-align: right;
+	padding: 0px;
 }
 	
 h3 {
-    font-family: "Zilla Slab", serif; 
-    font-size: 1.5em;
-    font-weight: bold;
+	font-family: "Zilla Slab", serif; 
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: "Zilla Slab", serif; 
+    	font-size: 1.125em;
+    	font-weight: bold;
+	text-align: right;
 }
 
 p {
@@ -61,17 +70,22 @@ p {
     font-size: 1.125em;
     margin: 10px;
     line-height: 1.2;
-    max-width: 800px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
 }
 
 div   {
 	padding-top: 40px;
 }
 
+form	{
+	padding: 40px;
+	font-family: "Helvetica Neue", Helvetica, sans-serif; 
+	text-align: center;
+}
+
 .logo {
-	block-size: 100%;
+	padding-block-start: 10%;
+	padding-block-end: 10vw;
 }
 	
 .footer {
@@ -83,23 +97,25 @@ div   {
 	margin-top: 60px;
 }
 
-.signup	{
+.faq	{
 	margin: 10px;
 	border: 2px solid black;
 	padding: 20px;
+}
+
+.section  {
+	background-color: black;
+	color: #FFF4A3;
 }
 
 </style>
 </head>
 <body>
     <div class=logo> 
-    <h1>OpenDJ</h1>
+    	<h1>OpenDJ</h1>
     </div>
-    <div>
-    <p>Sign up and save the date: DD/MM/YYYU<p>
-    <p>OpenDJ @ Satellite<br>
-    Duration: 60 minutes
-	</p>
+    <div class=section>
+    <p>OpenDJ @ Satellite // DD/MM/YYYU // 00:00 PM // Duration: +/- 60 minutes</p>
 	    <form>
             <label for="name">My name is</label>
             <input type="text" id="name" name="name" required>
@@ -109,9 +125,9 @@ div   {
         </form>
         </div>
     <div>
-    <p><strong>This is an opportunity for all</strong> interested in all things DJ. DJing as a form of musicianship is widely diverse in purpose and practice, and is as much a hobbyist practice as it is a professional one. The goal of this workshop is to shed some light on the dense topics, get a handle on different types of gear, and start the momentum to make a space for IRL support, mentorship, and collaboration.If this is your idea of a good time, sign up and save the date.</p>
+    <p><strong>This is an opportunity for all</strong> interested in the medium of sound. From sound systems to musical storytelling, The goal of this workshop is to shed some light on the art and science of projecting sound to facilitate participatory experience. You'll get hands-on support using different types of hardware, survey the arena of digital tools, and start the momentum to make a space for IRL support, mentorship, and collaboration. Yes, there will be turntables. If this sounds like your idea of a good time, sign up and save the date.</p>
        </div>
-	<div class=signup>
+	<div class=faq>
 		<h3>Do I have to be a DJ to attend?</h3>
 		<p>Not at all</p>
 		<h3>If I don't sign up, can I still attend?</h3>
@@ -124,7 +140,7 @@ div   {
     <div>
         <p><strong>Presenter Leila Paper</strong> is a DJ emeritus who would have loved to have a mentor back when she started. Entering the industry as a radio DJ in 1991, after 3 decades in clubs, raves and restaurants, she knows there is way more to DJing than a course could teach. Boasting a parent-disappointing depth of experience and knowledge in both vinyl and digital DJing, she is a motivated and committed mentor and industry advocate.</p>
     </div>
-    <div class="footer">
+    <div class=footer>
 123
     </div>
 </body>
