@@ -20,12 +20,7 @@ cd OpenDJ
 
 ## Usage
 
-Provide examples of how to use the repository. For example:
-
-```html
-<!-- Example of how to use the CSS files -->
-<link rel="stylesheet" type="text/css" href="path/to/stylesheet.css">
-```
+Create a branch per user or topic. 
 
 ## Contributing
 
