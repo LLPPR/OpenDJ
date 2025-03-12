@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenDJ Upcoming</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,500&family=Zilla+Slab+Highlight:wght@400;700&family=Zilla+Slab:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,700&family=Zilla+Slab+Highlight:wght@400;700&family=Zilla+Slab:ital,wght@0,400;0,500;1,400&display=swap');
     
 .montagu-slab-<uniquifier> {
   font-family: "Montagu Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
 }
     
@@ -44,7 +44,6 @@
   font-style: italic;
 }
 
-
 body {
 	font-size: 100%;
 	block-size: 100%;
@@ -75,10 +74,25 @@ p {
 	max-width: 800px;
 }
 
-form	{
-	font-family: "Zilla Slab Hightlight", serif;
-    	max-width: 800px;
-	margin: 20px;
+input[type=text], select {
+  padding: 20px;
+  margin: 5%;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #FFF4A3;
+  color: black;
+  padding: 20px;
+  margin: 5%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
 }
 
 .footer {
@@ -89,21 +103,13 @@ form	{
 	color: #FFF4A3;
 	margin-top: 40px;
    	padding-top: 20px;
-    text-align: center;
+    	text-align: center;
 }
 
 .faq	{
 	max-width: 800px;
 	padding-block: 5%;
-}
-
-
-.form	{
-	background-color: black;
-    color: #FFF4A3;
-    }
-    
-	
+}	
 </style>
 </head>
 <body>
@@ -115,11 +121,11 @@ form	{
 		<p>___DD/MM/YYYU at 00:00 PM____________<br>
 		___for +/- 60 minutes _______________<sub>...</sub></p>
 	</div>
-	<div class=faq">
+	<div>
 	<form>
       <label for="name">I'd like to attend</label>
       <input type="text" id="name" name="name" required>
-      <button type="submit">Sign Up</button>
+      <input type="submit" value=Sign Up>
         </form>
 	</div>
     <div>
