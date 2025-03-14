@@ -37,7 +37,7 @@ We are committed to fostering a welcoming and respectful community. Please read 
 
 ## Support
 
-We provide support for the administration of this repository. However, there is no support for the files uploaded to the repository.
+We provide support for the administration of the main repository and web page only.
 
 ## Acknowledgements
 
