@@ -1,3 +1,4 @@
+![image info](./pictures/image.png)
 # OpenDJ
 
 DJ commons, share and share alike. Scripts, UI integrations, maths, formulas, algorithms, mappers - text files only.
