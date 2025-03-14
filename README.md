@@ -4,10 +4,12 @@ DJ commons, share and share alike. Scripts, UI integrations, maths, formulas, al
 
 ## Features
 
-- Collection of DJ scripts
-- UI integrations
-- Mathematical formulas and algorithms
-- Mappers for various data transformations
+- Actions scripts
+- UI customization
+- Maths, formulas, macros
+- Controller mappers and definitions
+- Visualization scripts
+- Experiments
 
 ## Installation
 
