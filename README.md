@@ -24,7 +24,8 @@ Create a branch per user or topic.
 
 ## Contributing
 
-We welcome contributions! Please fork the repository and create a pull request with your changes. Ensure your code follows the project's style guidelines and includes relevant tests.
+We welcome contributions! Upload 
+Upload/create new file to a new branch with your user name. Please use descriptive file names, include application/model specific tags.
 
 ### Terms of Contribution
 
