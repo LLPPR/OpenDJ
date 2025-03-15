@@ -1,4 +1,4 @@
-# OpenDJ is a commons
+# OpenDJ is a Commons
 
 Share and share alike. Scripts, UI integrations, maths, formulas, algorithms, mappers - text files only.
 
