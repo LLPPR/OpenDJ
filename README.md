@@ -1,6 +1,4 @@
-![image info](./images/logo.png)
-
-DJ commons, share and share alike. Scripts, UI integrations, maths, formulas, algorithms, mappers - text files only.
+# OpenDJ is a commons, share and share alike. Scripts, UI integrations, maths, formulas, algorithms, mappers - text files only.
 
 ## Features
 
